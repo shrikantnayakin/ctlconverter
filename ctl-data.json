@@ -1,0 +1,184 @@
+{
+  "ginesys_auth_users_v1": [
+    {
+      "username": "s",
+      "password": "s",
+      "role": "Admin"
+    },
+    {
+      "username": "a",
+      "password": "a",
+      "role": "Operator"
+    }
+  ],
+  "ginesys_roles_v1": [
+    {
+      "name": "Admin",
+      "perms": [
+        "open_prn",
+        "presets",
+        "auto_map",
+        "edit_mapping",
+        "edit_functions",
+        "batch_convert",
+        "migration",
+        "generate_ctl",
+        "settings",
+        "theme"
+      ],
+      "builtin": true
+    },
+    {
+      "name": "Operator",
+      "perms": [
+        "open_prn",
+        "presets",
+        "auto_map",
+        "batch_convert",
+        "migration",
+        "generate_ctl",
+        "theme"
+      ],
+      "builtin": true
+    }
+  ],
+  "ginesys_custom_map_rules_v1": {
+    "oracle_item": {
+      "CNAME1": "#1CNAME1#",
+      "1CNAME1": "__DELETED__",
+      "CAT1": "__DELETED__",
+      "2CNAME1": "__DELETED__",
+      "CAT3": "__DELETED__",
+      "CAT4": "__DELETED__",
+      "CAT5": "__DELETED__",
+      "CAT6": "__DELETED__",
+      "COLOR": "__DELETED__",
+      "COLOUR": "__DELETED__",
+      "ACTMRP": "__DELETED__",
+      "CODE": "__DELETED__",
+      "SHORTNAME": "__DELETED__",
+      "DESC": "__DELETED__",
+      "QTY": "__DELETED__",
+      "SERIAL": "__DELETED__",
+      "CAT2": "__DELETED__",
+      "UOM": "#1UOM#",
+      "MRP": "__DELETED__",
+      "SIZE": "__DELETED__",
+      "BRAND": "__DELETED__",
+      "STYLE": "__DELETED__",
+      "ITEM": "__DELETED__",
+      "ACTQTY": "__DELETED__"
+    },
+    "pos_item": {
+      "MRP": "#1MRP#",
+      "CAT2": "#1CAT2#",
+      "UOM": "#1UOM#",
+      "ITEM": "__DELETED__",
+      "CODE": "__DELETED__",
+      "ITEMSHORTNAME": "__DELETED__",
+      "VENDOR": "__DELETED__",
+      "ACTMRP": "__DELETED__",
+      "EFFMRP": "__DELETED__",
+      "LISTEDMRP": "__DELETED__",
+      "WSP": "__DELETED__",
+      "PRICE": "__DELETED__",
+      "OFFERPRICE": "__DELETED__",
+      "ARTNO": "__DELETED__",
+      "COLOUR": "__DELETED__",
+      "COLOR": "__DELETED__",
+      "MATERIAL": "__DELETED__",
+      "SEGMENT": "__DELETED__",
+      "DESC": "__DELETED__",
+      "HSN": "__DELETED__",
+      "HSNSAC": "__DELETED__",
+      "QTY": "__DELETED__",
+      "SEC": "__DELETED__",
+      "DEPT": "__DELETED__",
+      "DIV": "__DELETED__",
+      "BRAND": "__DELETED__",
+      "STYLE": "__DELETED__",
+      "DESIGN": "__DELETED__",
+      "SIZE": "__DELETED__"
+    },
+    "oracle_batchserial": {
+      "MRP": "#1ACTMRP#",
+      "CAT2": "#1CNAME2#"
+    },
+    "postgresql_item": {
+      "CNAME1": "#1CNAME1#",
+      "UOM": "#1UOM#",
+      "MRP": "__DELETED__",
+      "CAT1": "__DELETED__",
+      "CAT2": "__DELETED__",
+      "CAT3": "__DELETED__",
+      "CAT4": "__DELETED__",
+      "CAT5": "__DELETED__",
+      "CAT6": "__DELETED__",
+      "SIZE": "__DELETED__",
+      "COLOR": "__DELETED__",
+      "COLOUR": "__DELETED__",
+      "ACTMRP": "__DELETED__",
+      "BRAND": "__DELETED__",
+      "STYLE": "__DELETED__",
+      "CODE": "__DELETED__",
+      "ITEM": "__DELETED__",
+      "SHORTNAME": "__DELETED__",
+      "DESC": "__DELETED__",
+      "ACTQTY": "__DELETED__"
+    },
+    "oracle_set": {
+      "GRPLEV1": "__DELETED__",
+      "GRPLEV2": "__DELETED__",
+      "GRPLEV3": "__DELETED__",
+      "CAT1": "__DELETED__",
+      "CAT2": "__DELETED__",
+      "CAT3": "__DELETED__",
+      "QTY": "__DELETED__",
+      "MRP": "__DELETED__",
+      "WSP": "__DELETED__"
+    },
+    "postgresql_set": {
+      "GRPLEV1": "__DELETED__",
+      "GRPLEV2": "__DELETED__",
+      "GRPLEV3": "__DELETED__",
+      "CAT1": "__DELETED__",
+      "CAT2": "__DELETED__",
+      "CAT3": "__DELETED__",
+      "QTY": "__DELETED__",
+      "MRP": "__DELETED__",
+      "WSP": "__DELETED__"
+    },
+    "postgresql_promotion": {
+      "PROMO": "__DELETED__",
+      "SALE": "__DELETED__",
+      "SCHEME": "__DELETED__",
+      "DISC": "__DELETED__",
+      "DISCPCT": "__DELETED__",
+      "NET": "__DELETED__",
+      "MRP": "__DELETED__",
+      "CAT1": "__DELETED__",
+      "CAT2": "__DELETED__",
+      "CAT3": "__DELETED__"
+    },
+    "oracle_promotion": {
+      "PROMO": "__DELETED__",
+      "SALE": "__DELETED__",
+      "SCHEME": "__DELETED__",
+      "DISC": "__DELETED__",
+      "DISCPCT": "__DELETED__",
+      "NET": "__DELETED__",
+      "MRP": "__DELETED__",
+      "CAT1": "__DELETED__",
+      "CAT2": "__DELETED__",
+      "CAT3": "__DELETED__"
+    }
+  },
+  "ginesys_theme_v1": "light-grey",
+  "__sync_cfg": {
+    "repo": "shrikantnayakin/ctlconverter",
+    "branch": "main",
+    "file": "ctl-data.json",
+    "pollInterval": "60",
+    "enabled": true
+  }
+}
