@@ -9,6 +9,11 @@
       "username": "a",
       "password": "a",
       "role": "Operator"
+    },
+    {
+      "username": "chetan",
+      "password": "123",
+      "role": "Operator"
     }
   ],
   "ginesys_roles_v1": [
