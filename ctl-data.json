@@ -52,6 +52,30 @@
       "builtin": true
     }
   ],
+  "ginesys_ctl_presets_v3": [
+    {
+      "name": "oracle_item_preset",
+      "displayName": "oracle_item_preset",
+      "module_key": "oracle_item",
+      "mapping": {
+        "8909531073810": "#1BARCODE#",
+        "Shrestha By Vastramay": "#1DESC1#",
+        "169Men's Yellow And Rose Gold ": "__BLANK__",
+        "Viscose Jacket, Kurta and Pyjama Set": "__BLANK__",
+        "JBN CREATION": "#1CNAME4#",
+        "Size:": "#1CNAME3#",
+        "Navy Blue": "#1CNAME2#",
+        "02-06-2026": "TO_CHAR(SYSDATE,'DD-MM-RRRR')",
+        "9990.00": [
+          "#1LISTEDMRP#",
+          ".00"
+        ],
+        "VSHRMJ073YWnK169": "#1ITEMNAME#",
+        "RGnVP2RG_42": "__BLANK__"
+      },
+      "saved_at": "2026-06-04"
+    }
+  ],
   "ginesys_custom_map_rules_v1": {
     "oracle_item": {
       "CNAME1": "#1CNAME1#",
