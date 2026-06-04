@@ -14,6 +14,11 @@
       "username": "chetan",
       "password": "123",
       "role": "Operator"
+    },
+    {
+      "username": "shivam",
+      "password": "1450210025",
+      "role": "Operator"
     }
   ],
   "ginesys_roles_v1": [
